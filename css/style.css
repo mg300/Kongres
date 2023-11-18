@@ -1,0 +1,33 @@
+body {
+  background-color: #dddddd;
+}
+
+.nav-img-custom {
+  width: 3.5rem;
+  background-color: #817abf;
+  max-height: 4rem;
+  min-height: 2.5rem;
+}
+
+.nav-img-custom img {
+  width: 2rem;
+}
+
+.nav-img-custom:hover + .nav-ex-custom {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ex-custom:hover {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ex-custom {
+  display: none;
+  margin: 1px 0;
+  box-sizing: border-box;
+  background-color: #1f138b;
+  max-height: calc(4rem - 2px);
+  min-height: calc(2.5rem - 2px);
+}
