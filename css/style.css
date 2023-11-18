@@ -33,3 +33,14 @@ body {
 .menu-custom {
   min-width: 20rem;
 }
+
+.header {
+  background: #151515 url("../assets/header.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title-custom {
+  background-color: rgba(32, 20, 140, 0.862745098);
+  top: 65%;
+}
