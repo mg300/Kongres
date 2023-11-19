@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="">
     <div class="p-0 container-fluid">
-      <ul class="menu-custom nav nav-pils flex-column d-flex vh-100 w-25 flex-nowrap position-absolute z-1"></ul>
-
       <header class="header vh-100 text-center position-relative">
+        <ul
+          class="menu-custom nav nav-pils flex-column d-flex w-25 flex-nowrap position-relative z-1 h-100 overflow-hidden"
+        ></ul>
         <div
           class="title-custom w-50 bg-primary-opacity text-white d-flex flex-column justify-content-center align-items-center mx-auto position-absolute mt-5 start-50 translate-middle py-3"
         >
@@ -24,6 +25,31 @@
           <p>12-32 KWIETNIA 2020 roku. POZNAŃ</p>
         </div>
       </header>
+      <section class="py-6 friends">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-5 offset-lg-2 flex-column d-flex justify-content-center">
+              <p class="text-primary display-6 text-uppercase">Koleżanki i koledzy</p>
+              <p class="text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.<br /><br />
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.o<br /><br />
+                the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages.
+              </p>
+              <p class="text-primary text-uppercase fs-5">
+                prof. dr hab. med.<br />
+                Kierownik Kliniki Rekrutacji <br />Uniwersytetu Medycznego w Poznaniu
+              </p>
+            </div>
+            <div class="col-lg-5 p-0">
+              <img class="img-fluid" src="./assets/2/prof.png" alt="profesor" />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

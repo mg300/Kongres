@@ -2,6 +2,10 @@ body {
   background-color: #dddddd;
 }
 
+.header {
+  min-height: 650px;
+}
+
 .nav-img-custom {
   width: 3.5rem;
   background-color: #817abf;
@@ -43,4 +47,8 @@ body {
 .title-custom {
   background-color: rgba(32, 20, 140, 0.862745098);
   top: 65%;
+}
+
+.friends {
+  text-align: justify;
 }

@@ -5,7 +5,9 @@ $theme-colors: (
 body {
   background-color: $primary;
 }
-
+.header {
+  min-height: 650px;
+}
 .nav-img-custom {
   width: 3.5rem;
   background-color: #817abf;
@@ -41,4 +43,9 @@ body {
 .title-custom {
   background-color: #20148cdc;
   top: 65%;
+}
+.img-prof {
+}
+.friends {
+  text-align: justify;
 }
