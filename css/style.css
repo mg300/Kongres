@@ -52,3 +52,19 @@ body {
 .friends {
   text-align: justify;
 }
+
+.card-custom:hover {
+  transform: scale(1.03);
+  z-index: 1;
+  -webkit-box-shadow: 8px 8px 24px 0px rgb(66, 68, 90);
+  -moz-box-shadow: 8px 8px 24px 0px rgb(66, 68, 90);
+  box-shadow: 8px 8px 24px 0px rgb(66, 68, 90);
+  transform: scaleY(1.08);
+}
+
+.label-custom {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
