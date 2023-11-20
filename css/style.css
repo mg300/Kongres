@@ -102,3 +102,10 @@ footer {
     background-size: cover;
   }
 }
+.btn-signup-custom {
+  margin-top: 4rem;
+}
+
+.shape-custom {
+  width: 300px;
+}
