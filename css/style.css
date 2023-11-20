@@ -68,3 +68,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+footer {
+  background: #151515 url("../assets/Footer.png") no-repeat center center;
+  background-size: cover;
+}
