@@ -5,6 +5,12 @@ $theme-colors: (
 body {
   background-color: $primary;
 }
+.toggler-custom {
+  width: 3rem;
+}
+.menu-display {
+  display: flex;
+}
 .header {
   min-height: 650px;
 }
@@ -36,7 +42,7 @@ body {
   min-width: 20rem;
 }
 .header {
-  background: #151515 url("../assets/header.png") no-repeat center center;
+  background: url("../assets/header.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -65,7 +71,7 @@ body {
   justify-content: center;
 }
 footer {
-  background: #151515 url("../assets/Footer.png") no-repeat center center;
+  background: url("../assets/Footer.png") no-repeat center center;
   background-size: cover;
 }
 @media (max-width: 767px) {
@@ -75,7 +81,7 @@ footer {
 }
 @media (max-width: 567px) {
   .header {
-    background: #151515 url("../assets/mobile.png") no-repeat center center;
+    background: url("../assets/mobile.png") no-repeat center center;
     background-size: cover;
   }
 }

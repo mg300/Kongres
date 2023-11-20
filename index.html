@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="">
+  <body>
     <div class="p-0 container-fluid">
       <header class="header vh-100 text-center position-relative">
+        <button class="border-0 btn d-block d-md-none position-absolute start-50 translate-middle-x">
+          <img src="assets/toggler.png" class="toggler-custom z-2 border-0" />
+        </button>
         <ul
-          class="menu-custom nav nav-pils flex-column d-flex w-25 flex-nowrap position-relative z-1 h-100 overflow-hidden"
+          class="menu-custom d-none d-md-flex nav nav-pils flex-column w-25 flex-nowrap position-relative z-1 h-100 overflow-hidden"
         ></ul>
         <div
           class="title-custom bg-primary-opacity text-white d-flex flex-column justify-content-center align-items-center mx-auto position-absolute mt-5 start-50 translate-middle py-3"
@@ -135,6 +138,96 @@
           </div>
         </div>
       </footer>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-item-custom flex-grow-1">
+                <a class="nav-link pointer-cursor p-0 d-flex h-100" href="#${i}">
+                  <div class="nav-img-custom d-flex align-items-center justify-content-center">
+                    <img src="/assets/icons/Layer_1.png" />
+                  </div>
+                  <div class="nav-ex-custom ps-1 text-start text-white fw-bold text-uppercase flex-grow-1">
+                    ${data[i]}
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <p class="d-inline-flex gap-1">
+        <a
+          class="btn btn-primary"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Link with href
+        </a>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Button with data-bs-target
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+          user activates the relevant trigger.
+        </div>
+      </div>
+      <p class="d-inline-flex gap-1">
+        <a
+          class="btn btn-primary"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Link with href
+        </a>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Button with data-bs-target
+        </button>
+      </p>
+
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <!-- Dodanie klasy d-none, aby tekst był ukryty domyślnie -->
+          <p class="d-none d-lg-block">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+            user activates the relevant trigger.
+          </p>
+        </div>
+      </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

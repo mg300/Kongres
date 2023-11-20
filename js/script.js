@@ -37,3 +37,8 @@ function insertElements(containerId, count) {
   }
 }
 insertElements("menuContainer", 16);
+
+document.querySelector(".toggler-custom").addEventListener("click", () => {
+  document.querySelector(".menu-custom").classList.toggle("d-none");
+  console.log(document.querySelector(".menu-custom").classList);
+});
