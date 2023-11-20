@@ -43,6 +43,7 @@ body {
 .title-custom {
   background-color: #20148cdc;
   top: 65%;
+  width: 50%;
 }
 
 .friends {
@@ -66,4 +67,15 @@ body {
 footer {
   background: #151515 url("../assets/Footer.png") no-repeat center center;
   background-size: cover;
+}
+@media (max-width: 767px) {
+  .title-custom {
+    width: 100%;
+  }
+}
+@media (max-width: 567px) {
+  .header {
+    background: #151515 url("../assets/mobile.png") no-repeat center center;
+    background-size: cover;
+  }
 }
