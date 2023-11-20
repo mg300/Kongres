@@ -8,8 +8,17 @@ body {
 .toggler-custom {
   width: 3rem;
 }
-.menu-display {
-  display: flex;
+
+.menu-custom {
+  animation: slideDown 0.5s ease-in-out;
+}
+@keyframes slideDown {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 .header {
   min-height: 650px;
